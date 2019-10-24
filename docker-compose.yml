@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  web:
+    build: .
+    image: virink/unctf_2019_misc_checkin
+    ports:
+      - 127.0.0.1:8083:3000
+    restart: always

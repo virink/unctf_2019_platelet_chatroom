@@ -1,0 +1,16 @@
+{
+  "name": "checkin_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Virink",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "koa": "^2.8.2",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "koa-websocket": "^6.0.0",
+    "vm": "^0.1.0",
+    "ws": "^7.1.2"
+  }
+}
